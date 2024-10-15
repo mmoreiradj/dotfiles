@@ -1,0 +1,43 @@
+b64e() {
+  echo -n "$1" | base64 -w 0
+}
+
+b64d() {
+  echo -n "$1" | base64 -d
+}
+
+kubeseal_enc() {
+  kubeseal -f $1 --format yaml > $2
+}
+
+vagrant(){
+  docker run -it --rm \
+    -e LIBVIRT_DEFAULT_URI \
+    -v /var/run/libvirt/:/var/run/libvirt/ \
+    -v ~/.vagrant.d:/.vagrant.d \
+    -v $(realpath "${PWD}"):${PWD} \
+    -w "${PWD}" \
+    --network host \
+    vagrantlibvirt/vagrant-libvirt:latest \
+      vagrant $@
+}
+
+alias l='exa -l'
+alias la='exa -la'
+alias ll='exa -l'
+alias ls='exa'
+alias c="xclip -selection c"
+alias p="xclip -selection clipboard -o"
+alias v='vim'
+alias vi='vim'
+alias cat='bat -p'
+
+alias ip='ip -c'
+
+alias k='kubectl'
+alias kk='k9s'
+alias kx='kubectx'
+alias kn='kubens'
+
+alias tf='tofu'
+

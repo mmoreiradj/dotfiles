@@ -1,0 +1,25 @@
+[user]
+  email = martin.moreira-de-jesus@protonmail.com
+  name = Martin Moreira de Jesus
+
+[core]
+  editor = vim
+	pager = less
+
+[interactive]
+  diffFilter = delta --color-only
+
+[delta]
+  navigate = true
+
+[merge]
+  conflictstyle = diff3
+
+[diff]
+  colorMoved = default
+
+[init]
+  defaultBranch = main
+
+[help]
+  autocorrect = 1
