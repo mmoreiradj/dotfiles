@@ -2,7 +2,7 @@ default:
   @just --list
 
 install:
-  stow || yay -S stow
+  stow --help || yay -S stow
   stow -v -R -t ~ git
   stow -v -R -t ~ zsh
   stow -v -R -t ~ tmux
