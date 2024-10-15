@@ -1,6 +1,7 @@
 [user]
   email = martin.moreira-de-jesus@protonmail.com
   name = Martin Moreira de Jesus
+  signingkey = 8B51EA6D7041F40B!
 
 [core]
   editor = vim
