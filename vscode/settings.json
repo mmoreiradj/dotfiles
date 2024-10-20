@@ -1,0 +1,58 @@
+{
+  "window.titleBarStyle": "custom",
+  "redhat.telemetry.enabled": false,
+  "editor.fontFamily": "'Jetbrains Mono', 'monospace', monospace",
+  "terminal.integrated.fontFamily": "FiraCode Nerd Font Mono Medium",
+  "terminal.integrated.allowChords": false,
+  "terminal.integrated.drawBoldTextInBrightColors": false,
+  "terminal.integrated.experimentalLinkProvider": false,
+  "terminal.integrated.rendererType": "auto",
+  "github.copilot.enable": {
+      "*": true,
+      "plaintext": true,
+      "markdown": true,
+      "scminput": false,
+      "yaml": true
+  },
+  "editor.minimap.enabled": false,
+  "[json]": {
+      "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[yaml]": {
+      "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+      "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "extensions.ignoreRecommendations": true,
+  "[typescript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "prisma.showPrismaDataPlatformNotification": false,
+  "editor.tabSize": 2,
+  "languageToolLinter.languageTool.ignoredWordsGlobal": [
+      "keycloak",
+      "oomade"
+  ],
+  "files.watcherExclude": {
+      "**/.bloop": true,
+      "**/.metals": true,
+      "**/.ammonite": true
+  },
+  "github.copilot.editor.enableAutoCompletions": true,
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.colorTheme": "GitHub Dark",
+  "javascript.format.enable": false,
+  "typescript.format.enable": false,
+  "puppet.format.enable": true,
+  "[jsonc]": {
+      "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+  },
+  "breadcrumbs.enabled": false,
+  "files.associations": {
+      ".env.example": "properties"
+  },
+}

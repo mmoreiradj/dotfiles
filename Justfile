@@ -10,3 +10,5 @@ install:
   stow -v -R -t ~/.config/alacritty alacritty
   mkdir -p ~/.config/k9s
   stow -v -R -t ~/.config/k9s k9s
+  mkdir -p ~/.config/Code/User
+  stow -v -R --ignore=extensions -t ~/.config/Code/User vscode
