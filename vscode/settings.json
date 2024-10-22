@@ -1,8 +1,8 @@
 {
   "window.titleBarStyle": "custom",
   "redhat.telemetry.enabled": false,
-  "editor.fontFamily": "'Jetbrains Mono', 'monospace', monospace",
-  "terminal.integrated.fontFamily": "FiraCode Nerd Font Mono Medium",
+  "editor.fontFamily": "JetBrainsMono NF",
+  "terminal.integrated.fontFamily": "JetBrainsMono NF",
   "terminal.integrated.allowChords": false,
   "terminal.integrated.drawBoldTextInBrightColors": false,
   "terminal.integrated.experimentalLinkProvider": false,
